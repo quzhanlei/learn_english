@@ -1,0 +1,320 @@
+<resources>
+    <string name="app_name">学英语</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="back">再按一次退出程序</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="listenTextView0">作者：清玄
+链接：http://www.zhihu.com/question/26999785/answer/76212379
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</string>
+    <string name="listenTextView1">1，提高听力必须花费大量时间 我花在听力上的时间很多。大学刚毕业时，专门练习过托福听力，大约用了300小时。后来断断续续听过北外的中级听力和“高听”，以及VOA的SE。最近四年每天坚持听ST，平均一天听2小时左右。
+英语听力的提高需要量的积累，不花大量时间不可能有突破。</string>
+    <string name="listenTextView2">2，提高听力需要阅读、口语、写作、翻译等多项技能的辅助， 学习听力不可能孤军深入。
+我在读大学和研究生期间，花了许多时间阅读英文原版专著，有些课程（宏观经济学、大众传播学、西方文学等）基本上是读英文原著，还利用业余时间翻译过一些资料。由于积累了大量词汇，并熟悉了英文表达方式，为之后的听力练习打下基础。另外，要多练口语，多写作、多跟读。我感到自豪的是，由于平时努力，每次重要的英语考试，如本科生、硕士生、博士生入学英语考试，我都能在不精心准备的状态下，取得好成绩。
+</string>
+    <string name="listenTextView3">3，提高听力必须有相应的词汇量
+我上大学时背过“英语8000常用词”，也背过小型英语词典。并把记忆单词和日常英语阅读结合起来，加强词汇基础。我在英语学习的起步阶段就接触英英词典，练习用英语解释英语。从而提高了语感。这几年我的词汇量基本稳定在一万以上。
+</string>
+    <string name="listenTextView4">4，听写是个好方法
+听写的一大好处是可以帮助我们识别语音。只有听准了英语语音，才能把正确的词句记录下来。长期坚持听写，能培养对英语语音的下意识反应。开始学听写很难，可从SE练起，逐渐过渡到ST。最重要的是辨音能力，要提高耳朵的敏感性。这属于物理性练习。没有辨音能力，一切将无从谈起。
+</string>
+    <string name="listenTextView5">5，坚持精听 有了一定的听力基础后，可练习精听。每次只听一句话，但一定要听懂。先听简单的话，在听长句、复杂句。开始要听许多遍才懂，熟练以后可以一、二遍就懂。接下来，练习听几句话，听段落，也要求一、二遍完全听懂。由于精听是完全靠耳朵听懂，而不是参考记录文本，因此对提高听力理解力很有帮助。所有听力练习的目的都是为了提高听解力。听写只是手段，不是目的。到一定程度以后，应减少听写量，更不能依靠听写记录文本去理解。
+</string>
+    <string name="listenTextView6">6，高质量的泛听 泛听可以提高一次听解的水平。听的时候，应保持心态放松，只管一路听下去，不必纠缠个别生词和难句。要求快速听懂大意，对某些细节和难点，可在第二、第三次听时搞懂。泛听材料不要太难，生词量不要太多。
+</string>
+     <string name="listenTextView7">7，主动听一些具有挑战性的材料 科技报道、医药卫生报道、采访实录等比较难懂，可以有选择地听一些。敢啃硬骨头，再听一般性报道，就有了轻松感。
+</string>
+     <string name="listenTextView8">8,下意识的听力练习 在睡觉前听，完全放松地听，有利于形成英语下意识，有时在睡梦中也能理解耳边的英语。不要强求每句话都听懂，在模糊状态下也可以积累语言感觉。
+ </string>
+    <string name="sayTextView0">作者：寺主人
+链接：http://www.zhihu.com/question/20097263/answer/50515166
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</string>
+    <string name="sayTextView1Title">【语料的积累】</string>
+    <string name="sayTextView1">
+1. 背单词（第一周、第二周）
+所需教材
+17天搞定GRE单词（大家不要被名字吓到了，这是一本背词法的书，而不是GRE词汇书）
+新托福口语词汇小伴侣（前10个list是根据北美日常口语词频统计，之后的是校园和生活分类专业词汇，第一个周期只要背熟前10个list就好了）
+使用方法
+拿出两周时间，给自己做个时间表，每天抽早起半小时和晚上睡觉半小时按照17天上的方法来背词汇小伴侣，唯一不同的是你需要跟着音频一起大声诵读，而不是默背。
+
+注意!!!
+按照17天的方法背单词千万不要担心记不住，记不住是应该的。只要让你的脑子有个印象就好了，它会在你不停给它看的时候自己就记住那个词的。所以不要给自己有压力说“要背”多少词，而是“要过多少词”。
+特别熟的单词直接用笔划掉，不要浪费时间。
+
+2. 造句练习（第三周、第四周）
+两周过去后，用造句练习的方式把这些词放置在语境里来复习。
+给自己再次订一个两周的时间表。
+仍然是早晚半小时，把所有的单词都口头造不同的三个句子，注意一定要读出来。
+仍然需要像17天中所说的每天复习，复习还是造三个句子，不一定和你之前造的句子一样。不复习是没有用的。
+
+3. 语料的及时弥补
+准备一个小本子或者词典app。在对话反射训练中遇到的生词，或者自己用英文无法表达的词记下来。当天晚上睡觉前回顾一遍。
+
+再次注意!!!
+不用追求每次的记忆效果，但是一定要复习，尤其是记不住的，多过几遍。</string>
+    <string name="sayTextView2Title">【对话的反射】</string>
+    <string name="sayTextView2">
+为什么叫“反射”？是因为在你没有训练以前，你的英文说出口之前大多数情况都会在脑子里翻译一遍
+
+而通过一段时间的强化训练以后就变成了可以直接反应不用翻译的话了，就跟你的母语一样，就像背乘法口诀。
+
+1. 跟读模仿（第五周，第六周，第七周）
+所需材料：《摩登家庭》视频任意一季（没看过的当然最好用第一季）
+
+它的对白是我觉得美剧中最接近生活的对白之一，大量地道的语句都可以直接抓来用。（老友记还有BBT感觉对白还是剧作感比较重，虽然是生活化场景，但是并不自然。Gossip Girl的语料也很好，但语速较快，不太适合一开始就拿来当素材）
+
+（评论补充 陈权威：貌似那个摩登家庭的字幕错了，live up to 的意思应该是不辜负、达到某人的期望，而不是与某人比肩。）
+
+使用方法
+只看前5集，1周花5天时间，每天1集，每次1个半小时。
+
+第五周
+像下图这样，找一张纸把中文字幕贴起来，借助英文字幕看剧，先从头到尾看一遍。
+
+
+（评论补充 木木： 推荐一下qq影音，可以自己决定在任何时间任何位置加马赛克，不用纸挡着这么不容易……之前上英语综合训练课的时候，老师推荐使用的！）
+
+看得过程中遇到你连英文都看不懂的，找个本子，把那句话记录下来。
+当时不要看中文，一集完全看完以后把纸条撤掉，反查你记录下来看不懂的英文是什么意思。
+
+然后开始逐句跟读，就是放一句，你读一句，要跟他说的一样一样的，模仿他的语音语调和速度，每句跟读5遍。
+
+一些简单的句子就不要跟读了，什么hello how are you之类。
+
+第六周
+还是那5集，从第1集开始看，把英文字幕也一起用纸贴起来挡住。
+
+现在开始一边看一边跟读，发现有英文不记得什么意思的或者听不懂的，就大致记下来。
+
+等全集跟读完了，回头再看是哪里有问题，记在小本子里
+
+第七周
+仍然是那5集，仍然每天1集，把那一集值得记住可以用在日常对话里的段落摘抄到小本子里。每抄一段，跟读三遍。
+
+然后设想一个你自己平时的生活场景，把那句话用进去。
+
+比如说刚才图里有一句：It\'s about being spontaneous. 你就可以想一下谁对你说什么话的时候你可能会说这句，然后假装这事儿发生了，你回复他。（一定要出声，并且带着场景感。）
+
+2. 强化训练（第八周）
+开始复习小本子上你记下来的句子，仍然是每天一集，每个小段落读3遍，背两遍。
+时间安排仍然要像17天单词的方法一样，一定要复习。
+
+因为这时候你对于台词已经翻滚了好几遍了，所以背起来会觉得特别轻松。
+
+
+3. 实战训练
+所需材料
+一个以英语母语国家的老外。
+（渠道有太多了：在中国的留学生，语言交换网站等等）
+
+比如说这个：
+Language Exchange Community
+
+使用方法
+聊天。
+
+很多人开不了口都是因为怕翻语法错误。一见到人就紧张，在脑子里过了好几遍就是说不出来。
+这个负担是完全没有必要的。
+
+换位思考一下，一个美国人说中文的时候你对他能有多大期望？他胡乱蹦几个词，加上环境背景，你基本大差不差也都能听懂了，你也不会觉得他怎么着，更不会笑话他或者歧视他中文不好吧。
+
+所以反之亦然，不要担心犯错，这是最最最最最关键的一步。
+
+开始的时候尽量用短句和简单句，你会发现这些短而简单的句子已经能够覆盖很大一部分对话了。然后你可以在每次聊天的过程中把你强化训练的句子用上。
+不懂的地方尽管问，不要害羞不懂装懂，短语和单词在情境中的使用你的记忆会特别深刻。
+
+我印象特别深的一次是我以前只知道呕吐是puke，有一次一个宿醉的同学很恐慌和我说I think  I\'m I\'m gonna throw up. 刚说完他就在我面前吐了一地…
+
+然后throw up这个词永远地留在了我的脑海里。
+
+代替方案
+一个英语好的国人。
+
+使用方法
+全英文沟通。
+
+我那会儿为了练英语，鼓动全班同学都和我说英语，如果抓到我说中文，就罚我钱。效果非常好，大概仅仅过了两个月左右我的英语就愉快地满地打滚了。
+
+当然你们不一定要像我一样做的这么绝，这和环境有关，我知道一定会有同学觉得你装逼或者得了什么精神病。所以就去找愿意这么做的同学吧，肯定能找到的。
+    </string>
+    <string name="sayTextView3Title">【语音的训练】</string>
+    <string name="sayTextView3">
+通过一段时间的跟读模仿，你的语音应该也有一定程度上的改变了。
+如果需要更加优化，可以用American Accent Training，效果相当显著。
+
+
+使用方法也是，你需要给自己安排个时间表，每天训练半小时左右。
+
+另外Andy Krieger的教程也挺好的，但是不知道为什么好像在国内不太有人知道。他专门在好莱坞纠正外国明星的口音，职业去口音专家。（突然觉得很有喜感）
+*注意：
+其实有口音并没有问题，反而是一种自身特色。如果对语音没有什么特殊爱好的话，不用太把精力花在语音的训练上。
+</string>
+    <string name="readTextView0">作者：逃之
+    链接：http://www.zhihu.com/question/23685795/answer/25404265
+    来源：知乎
+    著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</string>
+    <string name="readTextView1"> 1，我们得知道别人是怎么想的，才写出让我如此痛苦的句子。可以看一下这个网址，介绍了中英文思维的区别http://www.oktranslation.com/news/twininfo30972.html。
+        我当时看了这篇文章后有一种相见恨晚的感觉（我到底被英语折磨得有多痛苦啊）。
+  </string>
+    <string name="readTextView2"> 2，在看句子时不要自动把英文翻译成中文，这样不仅降低了自己的速度，而且没有一种语境感。
+   </string>
+    <string name="readTextView3"> 3，既然是看懂英文技术书籍，那么涉及到很多专业名词，那么你首先得认识他，多和它见几次面，虽然你还是不知道它应该怎样拼写但是你一见到它就知道：”我认识你，你是**的意思（这是针对不想记单词的人的办法）。看完一篇文章后不要把它丢到一边，可以放在你桌子上，没事的时候，就看看以前看过的，你的阅读速度会一次比一次快，而且你的感悟也会加深。
+   </string>
+    <string name="readTextView4"> 4，阅读是一种能力，有一句话说的好：无他，唯手熟耳。所以，你得长期坚持阅读，不求多，但求精。时间也不求长，但求可以领悟。
+</string>
+
+
+<string name="writeTextView0">作者：逃之
+    链接：http://www.zhihu.com/question/23685795/answer/25404265
+    来源：知乎
+    著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</string>
+    <string name="writeTextView1"> 1.注意句子以及段落的逻辑关系.
+
+    之前一直有这样的说法“英语是一门逻辑性很强的语言”，为什么这么说呢？因为仔细观察你会发现，英语在遣词造句上是遵循严密的的逻辑形式的：用词上要求人称、数、格的一致；句子有严谨的主谓结构，多用关联词语，重视形式的对应和显性衔接。而在语篇中多突出主题句，直线式地展开段落。
+
+    对于写作来说，一篇好的文章要遵循句子和句子之间，段落和段落之间的衔接和连贯。一篇好文章并不是句子的机械堆砌，而是一个有机整体，句子和句子之间是存在严谨的逻辑关系的
+
+ </string>
+    <string name="writeTextView2">
+2.有意识地进行逻辑学训练.
+
+由于种种原因，我们的中学教育甚至大学教育都没有对学生进行系统的逻辑学训练，这也在一定程度上对写作造成了影响。基本逻辑学知识的缺失会造成写作中语言不通，层次混乱，主题不明确等问题。要写出思维严谨，脉络清晰的文章，我们必须掌握基本的逻辑学规律。
+
+具体到英文写作中，常用的逻辑学基本规律主要有排中律，同一律，矛盾律这三种。
+
+排中律是指，文章的立意要明确，旗帜鲜明，千万不要和稀泥。比如像这样的作文题目 "Some people think that students should go to boarding schools instead of living at home. Do you agree or disagree?" 我们应该在文章中明确给出自己的意见：赞同上寄宿学校或者反对，而不是模棱两可，观点不清。
+
+同一律是指，在思考过程中，使用的概念或判断必须始终不变，保持同一。在英文写作中，要确保文章的立意和体裁符合要求并且在行文中始终如一，语体风格得体。比如下面的例子：
+
+Judging from the current tendency, I am inclined to believe that traditional shopping will disappear gradually and the reasons are as follows: For one thing, the online shopping can bring convenience to people\’s life … For another, the merchandizes in online shops are much cheaper than that in those real shops because… Everybody tends to choose the online shopping in this case.
+
+读起来是不是感觉有点怪？因为它出现了前后不一致的问题，前半部分给出的论点是传统购物会逐渐消失，后面的论证过程却在说网购的好处，两者失去了同一性，不能衔接。
+
+矛盾律是指文章论述必须首尾相贯，避免出现自相矛盾，跑题离题的现象。比如对 Asking students to evaluate their teachers is a good idea 这样的题目，文章中应该阐述学生评分带来的好处，而不应该把阐述重点放在学生评分带来的坏处上。</string>
+    <string name="writeTextView3">3.大量阅读，大量思考.
+
+事实上，我们不能把一件事说清楚，很多时候并不是语言技巧的问题，而是在于，我们对这件事情不够了解，知识储备不够多。设想一下，让你写文章分别讨论自己最擅长的领域和最不擅长的领域，哪一个会写得更有条理？
+如果没有基本的知识储备，空谈语言技巧和逻辑思维方法并没有意义。假如你不知道Uber,Lyft或者Airbnb, 碰到共享经济(sharing economy)这类话题时可能会无从下手——清晰的逻辑，有力的论证，一定是建立在对话题有足够多了解的基础之上的。所以才有这句话“读书破万卷，下笔如有神”。
+
+更现实一点，对于考场作文来说，常见的话题包括教育，科技，发展，媒体，政府，文化，环境，犯罪，全球化等，要写好这类文章，一定要对这些话题有足够多的了解。而了解它们最好的方法是通过大量的阅读，要广泛阅读关于这些题材的文章，积累起足够多的素材，肚子里有货才能写出东西来。
+
+应该寻找什么样的阅读材料？外刊就是一个很好的选择。因为外刊文章（比如经济学人和卫报）往往篇幅适中，信息量大，所讨论的主题又与考场作文话题息息相关，非常适合用来做素材积累。可以留意一下自己对哪些话题最不熟悉，然后想办法通过阅读来积累素材。
+</string>
+
+
+    <string name="useTextView0">作者：弗兰克
+链接：http://www.zhihu.com/question/22635786/answer/22329347
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</string>
+    <string name="useTextView1">1.词 借用母校外院陈宏薇教授在《新编汉英翻译教程》一书中的著名论断（个人学生时代时最为这句话折服，后来有幸与陈老见面，矍铄怡然。）：英语，没有字，只有词。虽然严格从语言学上来认知，最小单位应为morphem，但是就翻译以及英汉理解层面上来谈，英语的最小单位是“单词”，因为是单词按照语法规则连缀成句，进而形成“信息流”，主导行文脉络。但是汉语的最小单位是“字”，由字成词进而达意，即汉语的信息流通常由一个个字来主导，汉语的偏正结构即是最好的例子了。所以，在理解汉英两种语言时，要以此为逻辑思考的“肇始点”，通过字词的转换把握行文的信息流。
+另外，对英语的“词”这个概念的把握无法避免对inflection（屈折变化）的把握，英语的实意词皆有自己形式的屈折变化，正是这一点造成了英汉的最大区别，进一步深刻于英汉思维的巨大区别。说白了我的理解是英语非常注重逻辑（参差有致），汉语讲究的是“秒懂”，也就是说一些我们认为不言自明的东西英语却非要明显表达出来。（比如汉语的：他来了就走，英语一定要说：We go until he comes./If he comes , we will go.）
+
+</string>
+    <string name="useTextView2">
+
+        二.句法上的区别更大。第一英语多圆周句，汉语则多直抒胸臆。就拿请假这事举例，汉语会说：明天有事，想请假。英语则会说：I ask for leave for other business tomorrow. 2.英语多无灵主句，汉语则完全相反。比如我们会说，他明年五月来，翻译为英语会这样说：He will come next May.但是这样则显得更加“英语思维”一些：Next May will witness the coming of him. 用时间这个无生命体作主语，其他例如强调句啦，形式主语啦，IT等等啦就是例子，俯拾即是 3.英语多被动句，汉语中的被字句却稀少。这个很明显，就不举例子了。 4.句句之间的衔接上，汉语显得比较“随心所欲”或者说“不显山不露水”，但是英语就一定要指明两句直接的联系，个人以前在汉译英的时候就异常痛苦，很多时候觉得看到的汉语篇章简直就是“跳跃思维的集大成者”，你愣是不知道几句话是如何堆在一起的！！！！！
+
+</string>
+    <string name="useTextView3">三.段/篇 英语在段落铺陈和谋篇布局上更加严谨紧凑，全文有紧紧围绕的中心点，信息流明显意见</string>
+
+    <string name="useTextView4">英语的一大特色，就是通过各种连词介词，将句子通过逻辑关系连接起来，这样一来，无论是何种倒装还是顺序，只要能搞清楚连词介词以及对应的句子组成部分，就能搞清楚这段话要讲什么</string>
+    <string name="feedback">反馈</string>
+    <string name="read">读</string>
+    <string name="listen">听</string>
+    <string name="say">说</string>
+    <string name="write">写</string>
+    <string name="howToStudy">如何学好英语</string>
+    <string name="use">用</string>
+
+</resources>

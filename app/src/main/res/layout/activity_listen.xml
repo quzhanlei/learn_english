@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="cn.studyjams.s1.sj51.quzhanlei.ListenActivity">
+
+        <TextView
+
+            style="@style/SectionHeadTextView"
+            android:autoLink="all"
+            android:text="@string/listenTextView0" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/seprateLine" />
+        <TextView
+            style="@style/SectionTextView"
+
+            android:text="@string/listenTextView1" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/seprateLine" />
+        <TextView
+            style="@style/SectionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/listenTextView2" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/seprateLine" />
+        <TextView
+            style="@style/SectionTextView"
+
+            android:text="@string/listenTextView3" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/seprateLine" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/listenTextView4" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/seprateLine" />
+        <TextView
+            style="@style/SectionTextView"
+            android:text="@string/listenTextView5" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/seprateLine" />
+        <TextView
+            style="@style/SectionTextView"
+            android:text="@string/listenTextView6" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/seprateLine" />
+        <TextView
+            style="@style/SectionTextView"
+            android:text="@string/listenTextView7" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/seprateLine" />
+        <TextView
+            style="@style/SectionTextView"
+            android:text="@string/listenTextView8" />
+    </LinearLayout>
+</ScrollView>

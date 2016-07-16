@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@android:color/holo_green_light"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="cn.studyjams.s1.sj51.quzhanlei.MainActivity">
+
+        <TextView
+            android:id="@+id/title_text_view"
+            style="@style/HeaderTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/howToStudy" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/title_text_view"
+            android:orientation="vertical"
+            android:padding="@dimen/long_30dp">
+
+            <LinearLayout
+                android:id="@+id/listen_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_margin="@dimen/long_10dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_red_light"
+                android:onClick="listenEnglish"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CustomTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/listen" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/listen" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/say_layout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="@dimen/long_10dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_orange_light"
+                android:onClick="sayEnglish">
+
+                <TextView
+                    style="@style/CustomTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/say" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="center"
+                    android:src="@drawable/say" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/read_layout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="@dimen/long_10dp"
+                android:layout_weight="1"
+                android:background="@android:color/darker_gray"
+                android:onClick="readEnglish">
+
+                <TextView
+                    style="@style/CustomTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/read" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/read" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/write_layout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="@dimen/long_10dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_purple"
+                android:onClick="writeEnglish">
+
+                <TextView
+                    style="@style/CustomTextView"
+                    android:text="@string/write"
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/write" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/use_layout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="@dimen/long_10dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_light"
+                android:onClick="useEnglish">
+
+                <TextView
+                    style="@style/CustomTextView"
+                    android:text="@string/use" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/all" />
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/long_10dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/long_14dp"
+                android:background="@android:color/holo_green_dark"
+                android:onClick="feedBack"
+                android:text="@string/feedback" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

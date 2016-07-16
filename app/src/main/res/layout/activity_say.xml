@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="cn.studyjams.s1.sj51.quzhanlei.ListenActivity">
+
+        <TextView
+            style="@style/SectionHeadTextView"
+            android:autoLink="all"
+            android:text="@string/sayTextView0" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/seprateLine" />
+        <TextView
+            style="@style/CustomBoldTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/long_10dp"
+            android:text="@string/sayTextView1Title" />
+
+        <TextView
+            style="@style/SectionTextView"
+            android:autoLink="all"
+            android:text="@string/sayTextView1" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/seprateLine" />
+
+        <TextView
+            style="@style/CustomBoldTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/long_10dp"
+            android:text="@string/sayTextView2Title" />
+
+        <TextView
+            style="@style/SectionTextView"
+            android:text="@string/sayTextView2" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/seprateLine" />
+        <TextView
+            style="@style/CustomBoldTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/long_10dp"
+            android:text="@string/sayTextView3Title" />
+
+        <TextView
+            style="@style/SectionTextView"
+            android:text="@string/sayTextView3" />
+
+    </LinearLayout>
+</ScrollView>
